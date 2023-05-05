@@ -1,0 +1,171 @@
+/*Element styles*/
+body {
+  font-family: sans-serif;
+  background-color: darkslateblue;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+label {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+legend {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+body li {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  margin-bottom: 25px;
+  border: 1px solid black;
+  background-color: slateblue;
+}
+
+li button {
+  border-radius: 25px;
+  color: white;
+  background-color: darkred;
+  margin-left: 150px;
+}
+
+li:nth-child(odd) {
+  background: darkslateblue;
+  color: white;
+}
+
+input {
+  background-color: lightgray;
+}
+
+nav li {
+  list-style-type: none;
+  background-color: none;
+}
+
+a {
+  text-align: center;
+  color: lightgray;
+  background-color: none;
+  display: list-item;
+  line-height: 36px;
+  font-size: 32px;
+}
+
+nav {
+  margin-bottom: 100px;
+  background-color: mediumslateblue;
+  border-radius: 80%;
+  border: none;
+}
+
+/*ID styles*/
+#pcConnection {
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  text-align: center;
+  align-content: center;
+  border-radius: 90%;
+  display: inline-flex;
+}
+
+#dcConnection {
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 90%;
+  display: inline;
+}
+
+#newValueLabel {
+  margin: 0px 0px 0px 30px;
+}
+
+#newValueInput {
+  margin: 5px;
+  border-radius: 25px;
+}
+
+#testNameLabel {
+  margin: 0px 0px 0px 29.5px;
+}
+
+#testNameInput {
+  margin: 5px;
+  border-radius: 25px;
+}
+
+#oldValueLabel {
+  margin: 0px 0px 0px 37px;
+}
+
+#oldValueInput {
+  margin: 5px;
+  border-radius: 25px;
+}
+
+#patientCorrelationButton {
+  margin-left: 135px;
+  border-radius: 25px;
+}
+
+#pcFieldset {
+  margin-bottom: 40px;
+  border-radius: 75px;
+}
+
+#pcResultsFieldset {
+  margin-bottom: 40px;
+  border-radius: 75px;
+  overflow-y: scroll;
+}
+
+#pcResultsFieldset::-webkit-scrollbar {
+  display: none;
+}
+
+#daysFromTodayInput {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+#dateCalculatorButton {
+  margin-left: 137px;
+  border-radius: 25px;
+}
+
+#daysFromTodayFieldset {
+  margin-bottom: 40px;
+  border-radius: 75px;
+}
+
+#daysFromTodayResultsFieldset {
+  margin-bottom: 40px;
+  border-radius: 75px;
+  overflow-y: scroll;
+}
+
+#daysFromTodayResultsFieldset::-webkit-scrollbar {
+  display: none;
+}
+
+/*Class Styles*/
